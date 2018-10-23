@@ -1,6 +1,8 @@
+preco1 = 0
 cont = 0
+for cont in range (0,10):
+	preco = float(input("Digite o preço:"))
+	if (preco > preco1):
+		preco1 = preco
 
-for i in range (0,10):
-  preco = float(input("Informe o valor do produto: "))
-ope = max(preco)
-print("O valor do produto mais caro é: ", ope)
+print("O maior preço foi de: ",preco1)
