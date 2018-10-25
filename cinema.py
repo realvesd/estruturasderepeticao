@@ -3,7 +3,7 @@ otimo = 0
 bom = 0
 regular = 0
 
-for cont in range (0,5):
+for cont in range (5):
 opiniao = int(input("Qual sua opinião sobre o filme? 3 - Otimo ,2 - Bom ou 3 - Regular"))
 if opiniao == '3':
   otimo += 1
